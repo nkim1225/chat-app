@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {Component} from 'react'
+import ChatContainer from './ChatContainer'
 
 export const App = (props) => {
-  return (<h1>Make It So React</h1>)
+  return (<ChatContainer/>)
 }
 
 export default App
