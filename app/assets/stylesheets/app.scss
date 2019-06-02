@@ -1,0 +1,21 @@
+#chat-app {
+  border: 1px solid black;
+  height: 100vh;
+  margin-top: 10px;
+}
+#chat-app h1 {
+  text-align: center;
+}
+#chat-app div {
+  border: 1px solid black;
+}
+#message-container {
+  height: 70%;
+}
+#text-field {
+  height: 20%;
+  padding-top: 7%;
+}
+#text-field div {
+  border: 0;
+}
