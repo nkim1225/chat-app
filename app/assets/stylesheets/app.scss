@@ -10,7 +10,8 @@
   border: 1px solid black;
 }
 #message-container {
-  height: 70%;
+  max-height: 70%;
+  overflow: auto;
 }
 #text-field {
   height: 20%;
@@ -18,4 +19,7 @@
 }
 #text-field div {
   border: 0;
+}
+.message dl {
+  margin: 0;
 }

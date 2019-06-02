@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TextField from '../components/TextField';
+import Message from '../components/Message';
 
 class ChatContainer extends Component {
   constructor(props) {
@@ -30,7 +31,27 @@ class ChatContainer extends Component {
     return (
       <div id="chat-app" className="small-12 medium-8 small-centered columns">
         <h1>Chat App Body</h1>
-        <div id="message-container" className="small-12 medium-10 small-centered columns" />
+        <div
+          id="message-container"
+          className="small-12 medium-10 small-centered columns"
+        >
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+          <Message message={'HELLO'} />
+        </div>
         <div id="text-field" className="small-12 medium-10 small-centered columns">
           <TextField message={this.state.message} />
         </div>
